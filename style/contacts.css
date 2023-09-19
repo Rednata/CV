@@ -1,0 +1,27 @@
+.contacts {
+  height: 120vh;
+}
+
+.contacts__item span,
+.contacts__link {
+  padding-left: 10px;
+}
+
+.contacts__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1024px) {
+  .contacts__item:not(:last-child) {
+    margin-bottom: 10px;
+  } 
+}
+
+@media (max-width: 480px) {
+  .contacts__list {
+    font-size: 14px;
+  }
+  .contacts__item:not(:last-child) {
+    margin-bottom: 8px;
+  }
+}

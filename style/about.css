@@ -1,0 +1,153 @@
+.about__container {
+  line-height: 1.5;
+}
+
+.about__descript {
+  display: flex;
+  column-gap: 50px;
+  align-items: center;
+  margin-bottom: 50px;
+  color: var(--accent-color);
+  font-weight: bold;
+  font-size: 20px;  
+}
+.img__wrap {  
+  border-radius: 10px;    
+}
+
+.about__img {
+  border-radius: 10px;  
+  display: block;
+}
+
+.about__content-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.about__content:nth-child(2) > .about__list {
+  margin-bottom: 20px;
+}
+
+.about__title {
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: normal;
+  background-color: var(--opacity-grey-color);
+  padding-left: 5px;
+}
+
+.about__title > span {
+  font-size: 20px;
+}
+
+.item {
+  display: flex;
+  gap: 40px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.item__date {
+  font-size: 22px;
+}
+
+.about__item-style {
+  font-style: italic;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.about__link {
+  color: var(--grey-color);
+  transition: color 0.2s;
+  font-style: italic;
+  display: block;
+  width: max-content;
+}
+
+.about__link:hover {
+  color: var(--accent-color);
+  transition: color 0.2s;
+}
+
+@media (max-width: 1024px) {
+  .about__container {
+    line-height: 1.3;
+  }
+  .item_style {
+    font-size: 18px;
+  }
+}
+@media (max-width: 850px) {
+  .about__descript {
+    /* flex-direction: column;
+    text-align: center; */
+    font-size: 18px;    
+  }
+  .img__wrap {
+    /* height: 200px; */
+  }
+  .item {
+    flex-direction: column;
+    gap: 0;
+  }
+  .item:not(:last-child) {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 700px) {
+  .about__container {
+    font-size: 14px;
+  }
+  .about__descript {
+    /* flex-direction: column;
+    text-align: center; */
+    column-gap: 35px;
+    font-size: 16px;        
+  }
+  .about__title {
+    margin-bottom: 15px;
+    font-size: 26px;    
+  }
+  .item__date,
+  .item_style {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about__content-wrap {   
+    gap: 20px;
+  }
+  .about__descript {   
+    flex-direction: column;
+    gap: 15px;
+    font-size: 14px;       
+    align-items: flex-start;     
+    margin-bottom: 30px;
+  }
+  .img__wrap {
+    height: 200px;
+  }
+  .about__title {
+    margin-bottom: 10px;
+    font-size: 19px;    
+  }
+  .about__title > span {
+    font-size: 14px;
+  }
+  .item {
+    gap: 5px;
+  }
+  .item:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  .about__content:nth-child(2) > .about__list {
+    margin-bottom: 10px;
+  }
+}
