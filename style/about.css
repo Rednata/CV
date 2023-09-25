@@ -58,7 +58,6 @@
 .about__item-style {
   font-style: italic;
   display: inline-block;
-  font-size: 20px;
 }
 
 .about__link {
@@ -83,13 +82,8 @@
   }
 }
 @media (max-width: 850px) {
-  .about__descript {
-    /* flex-direction: column;
-    text-align: center; */
+  .about__descript {   
     font-size: 18px;    
-  }
-  .img__wrap {
-    /* height: 200px; */
   }
   .item {
     flex-direction: column;
@@ -105,8 +99,6 @@
     font-size: 14px;
   }
   .about__descript {
-    /* flex-direction: column;
-    text-align: center; */
     column-gap: 35px;
     font-size: 16px;        
   }

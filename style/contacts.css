@@ -7,6 +7,15 @@
   padding-left: 10px;
 }
 
+.contacts__link-btn {  
+  border: 1px solid var(--grey-color);
+  text-align: center;
+  margin-left: 10px;
+  padding: 3px 10px;
+  border-radius: 5px;
+  background-color: var(--opacity-grey-color);
+}
+
 .contacts__item:not(:last-child) {
   margin-bottom: 20px;
 }

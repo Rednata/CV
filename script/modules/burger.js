@@ -27,7 +27,7 @@ const closeMenu = () => {
   // burger.classList.remove('burger__btn_open');
   burgerBtn.classList.add('burger__btn');
   burgerBtn.classList.remove('burger__btn_open');
-  nav.classList.remove('nav_active');    
+  nav.classList.remove('header__nav_active');    
 
 }
 
@@ -36,7 +36,7 @@ const openMenu = () => {
   burgerBtn.classList.remove('burger__btn');
   burgerBtn.classList.add('burger__btn_open');
   // burger.classList.add('burger__btn_open');
-  nav.classList.add('nav_active');
+  nav.classList.add('header__nav_active');
   overlay.classList.add('active');  
   // controlNavBtn();
 }

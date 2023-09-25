@@ -1,2 +1,6 @@
 .vscode
 example
+/click
+/*.docx
+/*.pdf
+/*.xlsx
