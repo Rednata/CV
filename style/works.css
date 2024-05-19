@@ -20,6 +20,7 @@
   'tools img'
   ;
   grid-template-columns: 40% 60%;  
+  
 }
 
 .card:not(:last-child) {
